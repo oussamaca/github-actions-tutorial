@@ -7,7 +7,7 @@ import (
 
 // Sequence returns a sequence of numbers from 1 to length, where multiples of
 // 3 are replaced by "foo", multiples of 5 are replaced by "bar", and multiples
-// of both 3 and 5 are rpelaced by "foobar".
+// of both 3 and 5 are replaced by "foobar".
 func Sequence(length int) ([]string, error) {
 	if length < 0 {
 		return nil, errors.New("length is negative")
